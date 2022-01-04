@@ -1,4 +1,4 @@
-# android_architecture
+# Android Architecture
 
 This project is simply made to demonstrate and practice implementation of android app architecture.
 
