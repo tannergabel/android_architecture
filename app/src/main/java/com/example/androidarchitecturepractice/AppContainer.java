@@ -14,5 +14,5 @@ public class AppContainer
     private final IntegerData integerData = new IntegerData(R.color.white);
     private final StringData stringData = new StringData();
 
-    public MainRepository mainRepository = new MainRepository(integerData, stringData);
+    public final MainRepository mainRepository = new MainRepository(integerData, stringData);
 }

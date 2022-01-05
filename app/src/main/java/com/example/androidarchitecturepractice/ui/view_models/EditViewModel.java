@@ -29,10 +29,9 @@ public class EditViewModel extends ViewModel
 
     private final MutableLiveData<EditFragmentState> state;
 
-
     public EditViewModel(MainRepository repo)
     {
-        this.repo =repo;
+        this.repo = repo;
         state = new MutableLiveData<>(null);
         repo.getCurrentColor().subscribe(new Observer<Integer>()
         {
